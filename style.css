@@ -268,3 +268,154 @@ width: 1280px;
 .read-btn:hover {
     background-color: #9eefdb
 }
+
+
+.donate {
+    text-align: center;
+}
+.donate h2 {
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.donate > p {
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.ammount-box-container {
+    display: flex
+;
+    gap: 20px;
+    justify-content: center;
+    margin: 32px auto;
+}
+.ammount-box {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #fff;
+    height: 128px;
+    width: 252px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: 700;
+}
+.active {
+    background-color: #c6e4d6;
+}
+.ammount-box:hover {
+    background-color: #c6e4d6;
+}
+
+
+.donate input {
+    font-size: 20px;
+    border: none;
+    width: 80%;
+    margin: 32px auto;
+    height: 64px;
+    padding: 20px 40px;
+    text-align: center;
+}
+.donate-btn {
+    color: #fff;
+    background-color: #006a50;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 17px 34px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+.donate-btn:hover   { background-color: #21cca1;}
+
+
+
+
+
+.subscribe {
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+    margin: 100px auto;
+    width: 1280px;
+    
+    text-align: center;
+    padding: 80px 100px;
+    padding-left: flex;
+    background-color: #fff;
+    border-radius: 24px;
+    background: #c6e4d6;
+}
+
+.subscribe h2 {
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.subscribe > p {
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    margin: 0px auto 10px;
+}
+
+.subscribe form > input {
+    font-size: 20px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    width: 568px;
+    padding: 17px 35px;
+    margin: 24px 0px;
+
+}
+
+.subscribe-btn {
+    color: #fff;
+    background-color: #006a50;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 17px 34px;
+    border-radius: 0 8px 8px 0;
+    justify-self: center;
+}
+
+.subscribe-btn:hover {
+    background-color: #149373;
+}
+
+.subscribe form {
+    display:flex;
+    gap: 0;
+    justify-content: center;
+ 
+    align-items: center;
+}
+
+
+
+
+footer{
+margin: 0;
+box-sizing: border-box;
+font-family: "Fira Sans", serif;
+background-color: #fff;
+text-align:center;
+padding: 50px;
+border-radius: 40px 40px 0 0;
+}
+
